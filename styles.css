@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Carter One", cursive;
+  height: 100vh;
+  width: 100%;
+}
+
+.containerSearchGif {
+  background-color: salmon;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.containerSearchGif h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.containerSearchGif .containerSearchInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.containerSearchGif .containerSearchInput input {
+  border: none;
+  border-radius: 10px;
+  height: 25px;
+  width: 180px;
+  padding-left: 5px;
+  font-family: "Carter One", cursive;
+}
+.containerSearchGif button {
+  border: none;
+  border-radius: 10px;
+  height: 20px;
+  width: 70px;
+  font-family: "Carter One", cursive;
+}
+.containerGifResults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid;
+}
